@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Academic Tutor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="icon/academicTutor.ico">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
+  </script>
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="index.html" style="color:white;">Academic Tutor</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="">Home</a></li>
+          <li><a href="lattc/index.html">LATTC</a></li>
+          <li><a href="lacc/index.html">LACC</a></li>
+          <li><a href="elac/index.html">ELAC</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+
+    <!-- Popup attributes -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Update</h4>
+          </div>
+          <div class="modal-body">
+            <p>These features coming soon.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container-fluid text-center">    
+      <div class="row content">
+
+        <div class="col-sm-8 text-left"> 
+          <h1>Welcome</h1>
+          <p>This website is here to serve all students in the Los Angeles Community College District. This site facilitates the student's journey in Mathematics. The purpose of this site is not to give any answers to the textbook's problems but instead to provide instructional videos on how to solve very similar problems. You will find all LACCD campus Math classes along with their appropriate book. All books on this site have hundreads of videos that help students advance in their homework when a problem is encountered. 
+            <hr>
+            <h3>Test</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="books">
+            <br>
+            <h3>Books</h3>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <a href="#"><img src="books/math125.jpg" alt="#" width="200" height="200"></a>
+                </div>
+
+                <div class="item">
+                  <a href="#"><img src="books/calculus.jpg" alt="#" width="200" height="200"></a>
+                </div>
+
+                <div class="item">
+                  <a href="lattc/math227statistics.html"><img src="books/statistics_triola.jpg" alt="#" width="200" height="200"></a>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2">
+              <h6>Copyright &copy; 2017 Romero</h6>
+            </div>        
+            <div class="col-sm-4">
+              <h6>About Us</h6>
+              <p>
+                This is Academic Tutor. A site that helps all LACCD students during their Mathematic journey. 
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <h6>Navigation</h6>
+              <ul>
+                <li><a href = "#" >Home</a></li>
+                <li><a href = "#" >Los Angeles Trade Tech College</a></li>
+                <li><a href = "#" >Los Angeles City College</a></li>
+                <li><a href = "#" >East Los Angeles College</a></li>
+              </ul>
+            </div>        
+            <div class="col-sm-2">
+              <h6>Follow Us</h6>
+              <ul>
+                <li><a href = "#" >Facebook</a></li>
+                <li><a href = "#" >Twitter</a></li>
+                <li><a href = "#" >Google Plus</a></li>
+              </ul>
+            </div>   
+          </div>
+        </div>
+
+        </footer>
+
+      </body>
+      </html>

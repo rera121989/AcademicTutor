@@ -1,0 +1,29 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+footer{
+  background-color: #303030;
+  color: white;
+}
+img{
+  margin: auto;
+}
+
+.books{
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+

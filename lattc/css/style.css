@@ -1,0 +1,33 @@
+a{
+	color:indigo;
+}
+a:hover{
+	color:mediumpurple;
+}
+
+.navbar{
+	background-color: indigo;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+div.polaroid {
+  width: 40%;
+  height: 40%;
+  margin-top: 20px;
+  max-height: 400px;
+  max-width: 300px;
+  margin-left: 30%;
+  border-radius: 12px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.textbox {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+div.picture{
+	margin-left: 20px;
+}
