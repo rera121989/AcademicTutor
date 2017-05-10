@@ -13,7 +13,7 @@
     {
       bubbleShape = 'square';
     }
-    else 
+    else
     {
       bubbleShape = 'circle';
     }
